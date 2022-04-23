@@ -1,0 +1,17 @@
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\Repository.deps.json
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\Repository.dll
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\ref\Repository.dll
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\Repository.pdb
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\Data.dll
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\Models.dll
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\Data.pdb
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\bin\Debug\net5.0\Models.pdb
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.dll
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\ref\Repository.dll
+C:\Users\enaei\Desktop\ITI\Final_Project\Noon\Repository\obj\Debug\net5.0\Repository.pdb
