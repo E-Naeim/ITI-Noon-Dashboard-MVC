@@ -96,7 +96,6 @@
                             <a href="#" class="dropdown-toggle btn btn-icon btn-trigger" data-bs-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
                             <div class="dropdown-menu dropdown-menu-end">
                                 <ul class="link-list-opt no-bdr">
-                                    <li><a href="html/user-details-regular.html"><em class="icon ni ni-eye"></em><span>View Details</span></a></li>
                                     <li><a href="#"><em class="icon ni ni-repeat"></em><span>Orders</span></a></li>
                                     <li class="divider"></li>
 
@@ -106,10 +105,9 @@
                                 data_ajax = "true",
                                 data_ajax_method = "GET",
                                 data_ajax_mode = "replace",
-                                data_ajax_update = "#ajax"
+                                data_ajax_update = "#ajax",
                                 })
                                     </li>
-
 
                                     <li>
                                         @Html.ActionLink("Activate", "Activate", "User", new {@id = user.Id} , new
@@ -123,7 +121,6 @@
                                     <li>
                                         @Html.ActionLink("Edit", "Edit", new { id = user.Id })
                                     </li>
-                                    @*<li><a href="#"><em class="icon ni ni-na"></em><span>Suspend</span></a></li>*@
                                 </ul>
                             </div>
                         </div>

@@ -48,9 +48,9 @@ namespace Noon.Controllers
         }
 
         // GET: User/Create
-        public ActionResult Create()
+        public ActionResult Create(string _Role = "Customer")
         {
-            var UserViewModel = new UserViewModel { IsActive = true };
+            var UserViewModel = new UserViewModel { IsActive = true, Role =  _Role};
             return View("UserForm", UserViewModel);
         }
 
