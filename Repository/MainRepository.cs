@@ -31,7 +31,7 @@ namespace Repository
                 query = includes.Aggregate(query,
                   (current, include) => current.Include(include));
 
-            return Table.SingleOrDefault(criteria);
+            return query.Where(criteria).FirstOrDefault();
         }
 
         public IQueryable<T> FindAll(Expression<Func<T, bool>> criteria, params Expression<Func<T, object>>[] includes)

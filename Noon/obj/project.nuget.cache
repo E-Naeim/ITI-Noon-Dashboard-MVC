@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "25zMu4UU+9MfOyh7MLLrWhJog6nk1DGRvnQhqJcs5XlDKKUgK7zYI17lsybhhk2/JtiYTOIyyTY+pREJhcDETQ==",
+  "dgSpecHash": "wIodx1XEc48Ga4NQBHBLUNNsfJkyTKhxBjl0Hk6q5uED5t3G0rL3Y83FOB7J2SmDIh7S7/5T16WsZvCLOPyo5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\enaei\\Desktop\\ITI\\Final_Project\\Noon\\Noon\\Noon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enaei\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\jquery\\3.6.0\\jquery.3.6.0.nupkg.sha512",
+    "C:\\Users\\enaei\\.nuget\\packages\\jquery.ajax.unobtrusive\\2.0.20710\\jquery.ajax.unobtrusive.2.0.20710.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\jquery.validation\\1.19.3\\jquery.validation.1.19.3.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -57,6 +58,8 @@
     "C:\\Users\\enaei\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\enaei\\.nuget\\packages\\microsoftajax\\4.0.20526\\microsoftajax.4.0.20526.nupkg.sha512",
+    "C:\\Users\\enaei\\.nuget\\packages\\microsoftmvcajax.mvc5\\5.0.0\\microsoftmvcajax.mvc5.5.0.0.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\enaei\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

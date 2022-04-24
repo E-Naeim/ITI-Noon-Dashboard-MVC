@@ -14,6 +14,12 @@
       "jQuery/3.6.0": {
         "type": "package"
       },
+      "jQuery.Ajax.Unobtrusive/2.0.20710": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.jQuery.Unobtrusive.Ajax": "2.0.20613"
+        }
+      },
       "jQuery.Validation/1.19.3": {
         "type": "package",
         "dependencies": {
@@ -863,6 +869,15 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "MicrosoftAjax/4.0.20526": {
+        "type": "package"
+      },
+      "MicrosoftMvcAjax.Mvc5/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MicrosoftAjax": "4.0.20526"
         }
       },
       "Newtonsoft.Json/11.0.2": {
@@ -2111,6 +2126,17 @@
         "Tools/uninstall.ps1",
         "jquery.3.6.0.nupkg.sha512",
         "jquery.nuspec"
+      ]
+    },
+    "jQuery.Ajax.Unobtrusive/2.0.20710": {
+      "sha512": "Pi9soMRdzL30AMb/gXPLjTLzjYs3/Ac0S51h4M28Iyc4rYQ4ln1fZxPTEmEbnUYRZzuP2b5P2saBq9llJ1e1tg==",
+      "type": "package",
+      "path": "jquery.ajax.unobtrusive/2.0.20710",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jquery.ajax.unobtrusive.2.0.20710.nupkg.sha512",
+        "jquery.ajax.unobtrusive.nuspec"
       ]
     },
     "jQuery.Validation/1.19.3": {
@@ -3634,6 +3660,34 @@
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "MicrosoftAjax/4.0.20526": {
+      "sha512": "slORMGGsTVOsbS+8Srvq79ZswFPHCAlQVXf3F67cdtDls8ULDua4xAJhi1LPBGvxjiM6y1meb5u8x1Lglcv24A==",
+      "type": "package",
+      "path": "microsoftajax/4.0.20526",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/MicrosoftAjax.debug.js",
+        "Content/Scripts/MicrosoftAjax.js",
+        "microsoftajax.4.0.20526.nupkg.sha512",
+        "microsoftajax.nuspec"
+      ]
+    },
+    "MicrosoftMvcAjax.Mvc5/5.0.0": {
+      "sha512": "Hi5+e87dKMDtzlrBqcHDmTZsJiqaazq8HJVUk0wWroESty6MB7DQlV1HBRHsjyG97q+mRVDhU8EmXWwDeGrW1w==",
+      "type": "package",
+      "path": "microsoftmvcajax.mvc5/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/MicrosoftMvcAjax.debug.js",
+        "Content/Scripts/MicrosoftMvcAjax.js",
+        "Content/Scripts/MicrosoftMvcValidation.debug.js",
+        "Content/Scripts/MicrosoftMvcValidation.js",
+        "microsoftmvcajax.mvc5.5.0.0.nupkg.sha512",
+        "microsoftmvcajax.mvc5.nuspec"
       ]
     },
     "Newtonsoft.Json/11.0.2": {
@@ -7286,8 +7340,10 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "Microsoft.jQuery.Unobtrusive.Ajax >= 3.2.6",
       "Microsoft.jQuery.Unobtrusive.Validation >= 3.2.12",
+      "MicrosoftMvcAjax.Mvc5 >= 5.0.0",
       "Repository >= 1.0.0",
       "jQuery >= 3.6.0",
+      "jQuery.Ajax.Unobtrusive >= 2.0.20710",
       "jQuery.Validation >= 1.19.3"
     ]
   },
@@ -7359,9 +7415,17 @@
             "target": "Package",
             "version": "[3.2.12, )"
           },
+          "MicrosoftMvcAjax.Mvc5": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "jQuery": {
             "target": "Package",
             "version": "[3.6.0, )"
+          },
+          "jQuery.Ajax.Unobtrusive": {
+            "target": "Package",
+            "version": "[2.0.20710, )"
           },
           "jQuery.Validation": {
             "target": "Package",

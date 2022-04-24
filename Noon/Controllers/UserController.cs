@@ -39,11 +39,6 @@ namespace Noon.Controllers
             // Get all users including his phone and address
             var users = UserRepository.FindAll(u => u.Role == Role, u => u.Phones, u => u.Addresses);
 
-            //var users = UserRepository.GetAll()
-            //    .Include(u => u.Phones)
-            //    .Include(u => u.Addresses)
-            //    .Where(u => u.Role == Role);
-
             if (users.Any())
             {
                 return View(users);
@@ -102,7 +97,7 @@ namespace Noon.Controllers
                     AddressRepository.Add(address);
 
                     unitOfWork.Save();
-                    return RedirectToAction("Customers", model.Role);
+                    return RedirectToAction("Index", model.Role);
                 }
                 else // updating
                 {
@@ -128,7 +123,7 @@ namespace Noon.Controllers
 
             }
 
-            return RedirectToAction("Customers", model.Role);
+            return RedirectToAction("Index", model.Role);
         }
 
         // GET: User/Edit/5
@@ -198,7 +193,5 @@ namespace Noon.Controllers
 
             return PartialView("_UserPartial", users);
         }
-
-
     }
 }

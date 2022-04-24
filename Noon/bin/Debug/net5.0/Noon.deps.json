@@ -39,8 +39,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.6",
           "Microsoft.jQuery.Unobtrusive.Validation": "3.2.12",
+          "MicrosoftMvcAjax.Mvc5": "5.0.0",
           "Repository": "1.0.0",
           "jQuery": "3.6.0",
+          "jQuery.Ajax.Unobtrusive": "2.0.20710",
           "jQuery.Validation": "1.19.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -340,6 +342,11 @@
         }
       },
       "jQuery/3.6.0": {},
+      "jQuery.Ajax.Unobtrusive/2.0.20710": {
+        "dependencies": {
+          "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.6"
+        }
+      },
       "jQuery.Validation/1.19.3": {
         "dependencies": {
           "jQuery": "3.6.0"
@@ -1092,6 +1099,12 @@
       "Microsoft.Win32.SystemEvents/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "MicrosoftAjax/4.0.20526": {},
+      "MicrosoftMvcAjax.Mvc5/5.0.0": {
+        "dependencies": {
+          "MicrosoftAjax": "4.0.20526"
         }
       },
       "Newtonsoft.Json/11.0.2": {
@@ -3563,6 +3576,13 @@
       "path": "jquery/3.6.0",
       "hashPath": "jquery.3.6.0.nupkg.sha512"
     },
+    "jQuery.Ajax.Unobtrusive/2.0.20710": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pi9soMRdzL30AMb/gXPLjTLzjYs3/Ac0S51h4M28Iyc4rYQ4ln1fZxPTEmEbnUYRZzuP2b5P2saBq9llJ1e1tg==",
+      "path": "jquery.ajax.unobtrusive/2.0.20710",
+      "hashPath": "jquery.ajax.unobtrusive.2.0.20710.nupkg.sha512"
+    },
     "jQuery.Validation/1.19.3": {
       "type": "package",
       "serviceable": true,
@@ -3919,6 +3939,20 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "MicrosoftAjax/4.0.20526": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-slORMGGsTVOsbS+8Srvq79ZswFPHCAlQVXf3F67cdtDls8ULDua4xAJhi1LPBGvxjiM6y1meb5u8x1Lglcv24A==",
+      "path": "microsoftajax/4.0.20526",
+      "hashPath": "microsoftajax.4.0.20526.nupkg.sha512"
+    },
+    "MicrosoftMvcAjax.Mvc5/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hi5+e87dKMDtzlrBqcHDmTZsJiqaazq8HJVUk0wWroESty6MB7DQlV1HBRHsjyG97q+mRVDhU8EmXWwDeGrW1w==",
+      "path": "microsoftmvcajax.mvc5/5.0.0",
+      "hashPath": "microsoftmvcajax.mvc5.5.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
